@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right, #4f5bd5, #962fbf,#4f5bd5,#d62976,#fa7e1e);
+    background-image: linear-gradient(to right, #4f5bd5 , #962fbf,#4f5bd5,#d62976,#fa7e1e);
 }
 .calculator{
     position: relative;
@@ -20,9 +20,13 @@ body{
 }
 
 .disp{
+    
     padding-top: 20%;
     font-size: 30px;
 
+}
+#display{
+    overflow-x: hidden;
 }
 
 
