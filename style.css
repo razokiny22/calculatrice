@@ -1,83 +1,68 @@
-
 body{
-    background-color: linear;
-}.calculator{
+    background-image: linear-gradient(to right, #4f5bd5, #962fbf,#4f5bd5,#d62976,#fa7e1e);
+}
+.calculator{
     position: relative;
     width: 350px;
-    height: 600px;
-    left : 45%;
-    background-color: #222831;
+    height:625px;
+    left : 35%;
+    background-color:rgba(255,255,255,0.2);
+    box-shadow: 2px 2x 2px rgba(0,0,0,0.5),2px 2x 2px rgba(0,0,0,0.5);
+    border : 2px solid rgba(0,0,0,0.015);
+   
     border-radius: 10px;
-}
-.calculator .dark{
-    background-color: #222831;
-}
-.calculator .might{
-    background-color:#f5f8fa;
-    
 }
 .result{
     width: 100%;
-    height: 30%;
+    height: 25%;
     text-align: right;
     color : white;
 }
+
 .disp{
     padding-top: 20%;
-    font-size: 45px;
+    font-size: 30px;
+
 }
 
 
 .entrer{
     position: relative;
     width:100%;
-    height: 80%;
+    height: 90%;
     bottom: 0;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #2D4059;
-    
+ 
 
 }
-.enter .dark{
-    background-color: #2D4059;
-}
-.enter .might{
-    background-color: #E1E8ED;
-}
 .entrer ul{
+    margin : 0;
     position: relative;
-    left:-20px;
+    left:-10px;
     top: 25px;
     display: grid;
     grid-template-columns: repeat(4,60px);
-    gap:25px;
+    gap:20px;
    
        
 }
 .entrer ul li{
     border-radius: 10px;
-    background-color: #222831;
     padding: 20px;
-    text-align: center;
     list-style-type: none;
     cursor: pointer;
 }
-.entrer ul li .dark{
-    background-color: #222831;
-}
-.entrer ul li .might{
-    background-color: #1da1f2;
-}
-.boutton{
-    font-size: 25px;
+.entrer ul li:hover{
+    background-color: rgba(255,255,255,0.3);
 }
 .operator{
-    color : #ff5722;
+    font-size:25px;
+    text-align: center;
+    color : black;
+
 }
 .number{
-    
-    color : #eeeeee;
+    font-size:25px;
+    color : white;
 }
