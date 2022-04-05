@@ -1,0 +1,83 @@
+
+body{
+    background-color: linear;
+}.calculator{
+    position: relative;
+    width: 350px;
+    height: 600px;
+    left : 45%;
+    background-color: #222831;
+    border-radius: 10px;
+}
+.calculator .dark{
+    background-color: #222831;
+}
+.calculator .might{
+    background-color:#f5f8fa;
+    
+}
+.result{
+    width: 100%;
+    height: 30%;
+    text-align: right;
+    color : white;
+}
+.disp{
+    padding-top: 20%;
+    font-size: 45px;
+}
+
+
+.entrer{
+    position: relative;
+    width:100%;
+    height: 80%;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #2D4059;
+    
+
+}
+.enter .dark{
+    background-color: #2D4059;
+}
+.enter .might{
+    background-color: #E1E8ED;
+}
+.entrer ul{
+    position: relative;
+    left:-20px;
+    top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    gap:25px;
+   
+       
+}
+.entrer ul li{
+    border-radius: 10px;
+    background-color: #222831;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+.entrer ul li .dark{
+    background-color: #222831;
+}
+.entrer ul li .might{
+    background-color: #1da1f2;
+}
+.boutton{
+    font-size: 25px;
+}
+.operator{
+    color : #ff5722;
+}
+.number{
+    
+    color : #eeeeee;
+}
