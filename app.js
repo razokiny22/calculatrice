@@ -18,7 +18,7 @@ btn.forEach((item) =>{
             }
            
             }else if(display.innerText != '' && item.id =='equal'){
-                if(eval(display.innerText)=='Infinity' || eval(display.innerText)=='NaN' || eval(display.innerText)=='-Infinity'){
+                if(eval(display.innerText)=='Infinity' || eval(display.innerText)==='NaN' || eval(display.innerText)=='-Infinity'){
                     display.innerText = '';
                     displayResult.style.color = 'red';
                     displayResult.innerText ='Math Error';
