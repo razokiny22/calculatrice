@@ -20,13 +20,22 @@ body{
 }
 
 .disp{
-    
     padding-top: 20%;
     font-size: 30px;
 
 }
+.test {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
 #display{
-    overflow-x: hidden;
+    display:  flex;
+    justify-content :flex-end;
+    flex-wrap:nowrap;
+    font-size: 50px;
 }
 
 

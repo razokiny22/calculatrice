@@ -1,5 +1,6 @@
 const display = document.querySelector('#display');
 const displayResult = document.querySelector('#displayResult');
+const nextDiplayResult = document.querySelector('#nextDiplayResult');
 const btn = document.querySelectorAll('.boutton');
 
 btn.forEach((item) =>{
@@ -23,10 +24,13 @@ btn.forEach((item) =>{
                     displayResult.innerText ='Math Error';
                     setTimeout(()=> (displayResult.innerText =''), 2000);
                     displayResult.style.color = 'white';
+                 
                 }
                 else{
                     displayResult.innerText = eval(display.innerText);
                     display.innerText = '';
+                    display.innerText = displayResult.innerText;
+                    displayResult.innerText = '';
                 }
                 }else if(display.innerText == '' && item.id == 'equal'){
                         displayResult.innerText = 'Empty!';
@@ -37,6 +41,7 @@ btn.forEach((item) =>{
                             displayResult.innerText = '';
                         }else{
                             displayResult.innerText = eval(display.innerText)
+                          
                         }
                        
                       
